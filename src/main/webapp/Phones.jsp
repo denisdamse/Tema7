@@ -16,6 +16,8 @@
 		<td><c:out value="${phone.name}"/></td>
 		<td><c:out value="${phone.yearReleased}"/></td>
 		<td><c:out value="${phone.software}"/></td>
+		<td><a href="<c:url value='/phone?id=${phone.id}' />">Detalii</a>>
+		</td>
 		</tr>
 	</c:forEach>
 	</table>

@@ -16,6 +16,8 @@
 		<td><c:out value="${order.destinationFrom}"/></td>
 		<td><c:out value="${order.destinationTo}"/></td>
 		<td><c:out value="${order.weight}"/></td>
+		<td><a href="<c:url value='/order?id=${order.id}' />">Detalii</a>>
+		</td>
 		</tr>
 	</c:forEach>
 	</table>
